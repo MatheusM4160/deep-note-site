@@ -50,23 +50,6 @@ export default function Hero() {
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
-              className="flex flex-col sm:flex-row gap-4 w-full"
-            >
-              <motion.a
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="btn-secondary flex items-center justify-center gap-2 w-full sm:w-auto"
-                href="#como-funciona"
-              >
-                <MousePointerClick className="w-5 h-5" />
-                Veja como funciona
-              </motion.a>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut', delay: 0.4 }}
               className="flex flex-wrap items-center gap-6 mt-12 text-text-muted"
             >
