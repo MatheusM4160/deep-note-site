@@ -38,7 +38,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-3 cursor-pointer"
           >
-            <img src="/logo.svg" alt="Deep Note" className="w-10 h-10" />
+            <img src="./logo.svg" alt="Deep Note" className="w-10 h-10" />
             <span className="font-heading font-bold text-xl tracking-tight bg-gradient-to-r from-white to-electric-blue bg-clip-text text-transparent">
               DEEP NOTE
             </span>
